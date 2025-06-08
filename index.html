@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Insertion Sort Visualizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Insertion Sort Visualizer</h1>
+
+    <div id="array-container"></div>
+
+    <div class="controls">
+      <button onclick="generateArray()">Generate Array</button>
+      <button onclick="startManualMode()">Start Manual Mode</button>
+      <button onclick="startAutoMode()">Start Auto Mode</button>
+      <button onclick="nextStep()">Next</button>
+      <button onclick="reset()">Reset</button>
+    </div>
+
+    <p id="status">Click "Generate Array" to begin.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
